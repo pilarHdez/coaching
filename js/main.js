@@ -55,7 +55,9 @@
 		    nav: false,
 		    dots: true,
 		    smartSpeed: 500,
-		    autoHeight: true
+		    autoHeight: true, 
+		    stopOnHover : true,
+		    autoplay: true 
 		});
 	};
 
@@ -179,3 +181,16 @@
 
 
 }());
+
+
+$('.coach-contigo').owlCarousel({
+    center: true,
+    items:2,
+    autoWidth:true,
+    loop:true,
+    smartSpeed: 50,
+    margin:10,
+    stopOnHover : true,
+    autoplay: true, 
+    responsiveClass: true
+});
